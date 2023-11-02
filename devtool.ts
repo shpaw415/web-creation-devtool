@@ -448,8 +448,6 @@ export class Theme extends CommonData {
     public liveInitCallback: (self: Theme) => void = () => { }; // need to be set for the live version of the theme
     public customData: Subset<ElementStyleStruct> = {};
 
-    public actions: Array<Action> = [];
-
     public constructor() {
         super();
         this.element = new wa.ElementManager('#htmlSection');
@@ -478,7 +476,7 @@ export class Theme extends CommonData {
     public addAction(action: Action) {
         action.theme = this;
         action.isTheme = true;
-        this.actions.push(action);
+        this.assosiatedActions.push(action);
         return this;
     }
     /** @example (self, contextual) => contextual.add('Icon', 'Text', () => Callback()).add('...') */
