@@ -25,13 +25,12 @@ you should first learn to **use typescript** and if you want to create themes wi
 
 # Documentation :clipboard:
 ### Main table of contents
-| | name | Description | |
-| - | :-: | - | :-: | - | - |
-|| [Builder](#builder) | window to manage the Theme/Action by the user ||
-|| [data](#data) | data to custom the Theme/Action managed by the user with the [builder](#builder). ||
-|| [Theme](#theme) | the bloc of code used in Web-creation app and into the compiled site [[TypeScript](#theme-typescript), [Html](#theme-html), [css](#theme-css), [php](#theme-php)] || 
-|| [WebApp](#webapp) | Template use to create [builder](#builder). and manage Events of your Theme and Action ||
-|| 
+| name     |    Description    |
+|----------|:-----------------:|
+| [Builder](#builder) | window to manage the Theme/Action by the user |
+| [data](#data) | data to custom the Theme/Action managed by the user with the [builder](#builder). |
+| [Theme](#theme) | the bloc of code used in Web-creation app and into the compiled site [[TypeScript](#theme-typescript), [Html](#theme-html), [css](#theme-css), [php](#theme-php)]|
+| [WebApp](#webapp) | Template use to create [builder](#builder). and manage Events of your Theme and Action |
 
 
 
